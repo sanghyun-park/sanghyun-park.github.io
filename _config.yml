@@ -2,8 +2,8 @@
 
 # Site Settings
 title: Resume
-url: 'http://ddongbbang.com.com'
-baseurl: '/' #change it according to your repository name
+url: 'https://ddongbbang.com.com'
+#baseurl: '/' #change it according to your repository name
 description: Sanghyun Park
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
