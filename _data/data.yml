@@ -48,19 +48,14 @@ career-profile:
       IoT devices specialized in low power, long range connectivity, various
       sensor interfacing. and intersted in learning new technology.
 
-#education:
-#    - degree: BSc in Information & Communication
-#      university: Doowon Technical University
-#      time: 2007 - 2012
-#      # 동아리 활동, 창업아이템 경진대회, 포트폴리오 경진대회
-#      details: |
-#        Describe your study here lorem ipsum dolor sit amet, consectetuer
-#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#        sociis natoque penatibus et magnis dis parturient montes, nascetur
-#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#        pretium quis, sem.
-#          - Bullet point
-#          - Bullet point
+education:
+    - degree: BSc in Information & Communication
+      university: Doowon Technical University
+      time: 2007 - 2012
+      details: |        
+          - Ubiquitous academic circles
+          - Local Entrepreneurship Competition, 2nd place
+          - Korea Portfolio Competition, 3rd place
 
 experiences:
     - role: Senior Engineer
@@ -70,6 +65,12 @@ experiences:
         I have involved in HQ development department, from designing to manufacturing several IoT devices.
         And, co-worked with korean cellular network provider (KT), ETRI, KETI, and lots of solution partners.
         I have learned mobile communication protocols espacially LTE, LPWA(LoRa, LTE Cat.NB, M1, ...), WPAN(WiFi, Bluetooth LE, Zigbee, ...), and various sensor interfacing
+
+    - role: Sergeant
+      time: 2007 - 2009
+      company: Military Service, Korea
+      details: |
+        Fulfilled in tele-communication battalion in 6th corps command center
 
 projects:
     title: Projects
@@ -108,7 +109,6 @@ projects:
           - Certification of network operator (KT)
 
       - title: Smart Parking System
-        link: "#"
         tagline: |
           A parking monitoring device using NB-IoT (Sercomm TPB23)
           - Detect parking status using geomagnetic sensor, IR transceiver
@@ -118,7 +118,6 @@ projects:
           - Certification of network operator (KT)
 
       - title: NB-IoT External Modem
-        link: "#"
         tagline: |
           An external modem for solar pannel monitoring system using NB-IoT (Sercomm TPB23)
           - Interface with solar pannel monitor (RTU)
@@ -126,7 +125,6 @@ projects:
           - Certification of network operator (KT)
 
       - title: Asset Tracker
-        link: "#"
         tagline: |
           An asset tracker supporting LTE Cat.M1 (Quectel BG96)
           - Detect detach, breaking, moving event using accelerometer sensor & algorithm
@@ -136,7 +134,6 @@ projects:
           - Implement custom FOTA Server based on AWS
   
       - title: LTE Module Certification of carrier
-        link: "#"
         tagline: |
           Assist to get certification of network operator for foreign companies
           - KT Pre-QAT, QAT for Quectel EC-20 LTE Module (LTE Cat.4)
@@ -145,7 +142,6 @@ projects:
           - Making a connection manager tool for test sceanario (Win32 Application)
 
       - title: Supporting tools
-        link: "#"
         tagline: |
           Various supporting application for testing, manufacturing, ...
           - Connection manager for testing in certification process of network operator
@@ -163,7 +159,6 @@ projects:
           - Deply web-based application to Google play store
   
       - title: Others
-        link: "#"
         tagline: |
           - BLE beacon based communication module (based on Nordic nRF processor)
           - Zigbee transceiver module
