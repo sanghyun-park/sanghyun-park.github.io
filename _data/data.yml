@@ -67,7 +67,9 @@ experiences:
       time: 2012 - Present
       company: Teleworks, Seoul
       details: |
-        .
+        I have involved in HQ development department, from designing to manufacturing several IoT devices.
+        And, co-worked with korean cellular network provider (KT), ETRI, KETI, and lots of solution partners.
+        I have learned mobile communication protocols espacially LTE, LPWA(LoRa, LTE Cat.NB, M1, ...), WPAN(WiFi, Bluetooth LE, Zigbee, ...), and various sensor interfacing
 
 projects:
     title: Projects
@@ -98,7 +100,7 @@ projects:
         link: "http://www.teleworks.co.kr/product/list.asp?gb_div=2"
         tagline: |
           General perpose LTE router supporting LTE cat.4 based on MDM9625 (Qualcomm LTE Chipset)
-          - Taking part in hardware design based on RT5330 (Ralink wifi chip)
+          - Taking part in hardware design based on RT5330 (Ralink WiFi chip)
           - Porting Embedded linux
           - Porting Linux RIL (Qualcomm QMI Interface)
           - Porting KT DMS protocol (Quality reporting, FOTA)
