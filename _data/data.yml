@@ -32,15 +32,18 @@ sidebar:
         level: Intermediate
 
     interests:
-      - item: Photography
+      - item: IoT
         link:
 
-      - item: Swimming
+      - item: Embedded System
         link:
 
-      - item: Cycling
+      - item: LPWA Network
         link:
 
+      - item: Cloud
+        link:
+    
 career-profile:
     title: About me
     summary: |
