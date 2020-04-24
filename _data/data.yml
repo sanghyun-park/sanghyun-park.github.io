@@ -70,7 +70,7 @@ experiences:
       time: 2007 - 2009
       company: Military Service, Korea
       details: |
-        Fulfilled in tele-communication battalion in 6th corps command center
+        Fulfilled in wireless communication battalion in 6th corps command center
 
 projects:
     title: Projects
@@ -164,27 +164,18 @@ projects:
           - Zigbee transceiver module
           - 900MHz RF transceiver module
 
-#publications:
-#    title: Publications
-#    intro: |
-#      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#      bibendum fringilla a eu lectus.
-#    papers:
-#      - title: The Art of Computer Programming
-#        link: "#"
-#        authors: Donald E. Knuth
-#        conference: Addison-Wesley, 1968
-#
-#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#        link: "#"
-#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-#
-#      - title: A syntax directed compiler for Algol 60
-#        link: "#"
-#        authors: Edgar T. Irons
-#        conference: "Comm. ACM 4 (1961), 51–55"
+publications:
+    title: Publications
+    papers:
+      - title: The Implementation of Emergency Rescue Terminal for the Senior
+        link: "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=NPAP10078737"
+        authors: Sanghyun Park, Glory Seo, Chiyoung Heo, Sunny Jung
+        conference: Korea multimedia conference, Spring 2012
+
+      - title: The Implementation of Smart Shopping System using RFID
+        link: "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=NPAP10078740"
+        authors: Sanghyun Park, Sunny Jung
+        conference: Korea multimedia conference, Spring 2012
 
 skills:
     title: Skills &amp; Proficiency
