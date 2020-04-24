@@ -42,102 +42,130 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      An enthusiastic engineer for IoT ecosystem. I have developed various
+      IoT devices specialized in low power, long range connectivity, various
+      sensor interfacing. and intersted in learning new technology.
 
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+#education:
+#    - degree: BSc in Information & Communication
+#      university: Doowon Technical University
+#      time: 2007 - 2012
+#      # 동아리 활동, 창업아이템 경진대회, 포트폴리오 경진대회
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+#          - Bullet point
+#          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Engineer
+      time: 2012 - Present
+      company: Teleworks, Seoul
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        .
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I have developed various IoT services from terminal device to server application.
+      Most of devices developed using C/C++, RTOS on microprocessor or Linux on Appliation processor, communicating with LTE/LPWA/WPAN modules.
+      Most of servers and windows application developed under Node.js framework.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Kids wearable watch
+        link: "https://www.neoearly.net/2467993"
+        tagline: |
+          A smart wearable watch for kids, I involved in hardware device based on QSC6270 (Qualcomm WCDMA Chipset)
+            - Optimizing power consumption
+            - Implement device drivers for LCD, Audio Codec, sensors.
+            - Porting voice recognition algorithm
+            - Certification of network operator (KT)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Smart tablet for USN gateway
+        link: "http://www.teleworks.co.kr/product/list.asp?gb_div=2"
+        tagline: |
+          A smart tablet using Android 4.4 kitkat (based on Samsung Exynos4412 Application Processor, Telit WCDMA Module)
+            - Optimizing power consumption
+            - Porting Bootloader, LCD, WiFi, Zigbee device driver
+            - Porting Android RIL (AT Command & PPP Interface)
+    
+      - title: LTE Router
+        link: "http://www.teleworks.co.kr/product/list.asp?gb_div=2"
+        tagline: |
+          General perpose LTE router supporting LTE cat.4 based on MDM9625 (Qualcomm LTE Chipset)
+          - Taking part in hardware design based on RT5330 (Ralink wifi chip)
+          - Porting Embedded linux
+          - Porting Linux RIL (Qualcomm QMI Interface)
+          - Porting KT DMS protocol (Quality reporting, FOTA)
+          - Customizing management web UI
+          - Certification of network operator (KT)
 
-      - title: Tempo
+      - title: Smart Parking System
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: |
+          A parking monitoring device using NB-IoT (Sercomm TPB23)
+          - Detect parking status using geomagnetic sensor, IR transceiver
+          - Connect to KT IoT Makers platform
+          - Implement LWM2M/CoAP protocol stack
+          - Guarantee 2-years lifetime with low power operation
+          - Certification of network operator (KT)
 
-      - title: Atom
+      - title: NB-IoT External Modem
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: |
+          An external modem for solar pannel monitoring system using NB-IoT (Sercomm TPB23)
+          - Interface with solar pannel monitor (RTU)
+          - Connect to KT IoT Makers platform using LWM2M/CoAP
+          - Certification of network operator (KT)
 
-      - title: Delta
+      - title: Asset Tracker
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: |
+          An asset tracker supporting LTE Cat.M1 (Quectel BG96)
+          - Detect detach, breaking, moving event using accelerometer sensor & algorithm
+          - Implement TLS-encrypted connection with KT IoT Makers platform
+          - Connect to KT IoT Makers platform using TCP binding
+          - Guarantee 2-years lifetime with low power operation
+          - Implement custom FOTA Server based on AWS
+  
+      - title: LTE Module Certification of carrier
+        link: "#"
+        tagline: |
+          Assist to get certification of network operator for foreign companies
+          - KT Pre-QAT, QAT for Quectel EC-20 LTE Module (LTE Cat.4)
+          - KT Pre-QAT for Harman vehicle emergency communication system (LTE Cat.16, Thales module)
+          - Analyzing defects, failures and suggesting solution
+          - Making a connection manager tool for test sceanario (Win32 Application)
+
+      - title: Supporting tools
+        link: "#"
+        tagline: |
+          Various supporting application for testing, manufacturing, ...
+          - Connection manager for testing in certification process of network operator
+          - Factory initializing tool in device manufacturing process
+          - Windows application using electron framework (node.js)
+
+      - title: Toilet IoT Solution
+        link: "https://androidappsapk.co/detail-%ed%99%94%ec%9e%a5%ec%8b%a4-%eb%b9%88%ec%b9%b8-%ec%96%b4%eb%94%94%ec%95%bc/"
+        tagline: |
+          A Smart toilet IoT Service for looking for empty slot in toilet
+          - A responsive web UI design & Implement
+          - Full stack development with Node.js + MongoDB + Express + Bootstrap
+          - Communicate with door closing detect sensor every toilet
+          - Provide general user interface and admin management UI
+          - Deply web-based application to Google play store
+  
+      - title: Others
+        link: "#"
+        tagline: |
+          - BLE beacon based communication module (based on Nordic nRF processor)
+          - Zigbee transceiver module
+          - 900MHz RF transceiver module
 
 #publications:
 #    title: Publications
@@ -174,14 +202,14 @@ skills:
       - name: Tele-Communication
         level: 95%
 
-      - name: Node & Javascript 
+      - name: Node.js & Javascript 
         level: 80%
 
       - name: HTML5 & CSS
-        level: 80%
+        level: 75%
 
       - name: AWS
-        level: 60%
+        level: 72%
 
       - name: Photoshop
         level: 60%
