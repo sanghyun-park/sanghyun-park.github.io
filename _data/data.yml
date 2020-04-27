@@ -49,7 +49,7 @@ career-profile:
     summary: |
       An enthusiastic engineer for IoT ecosystem. I have developed various
       IoT devices specialized in low power, long range connectivity, various
-      sensor interfacing. and intersted in learning new technology.
+      sensor interfacing. and interested in learning new technology.
 
 education:
     - degree: BSc in Information & Communication
@@ -66,8 +66,8 @@ experiences:
       company: Teleworks, Seoul
       details: |
         I have involved in HQ development department, from designing to manufacturing several IoT devices.
-        And, co-worked with korean cellular network provider (KT), ETRI, KETI, and lots of solution partners.
-        I have learned mobile communication protocols espacially LTE, LPWA(LoRa, LTE Cat.NB, M1, ...), WPAN(WiFi, Bluetooth LE, Zigbee, ...), and various sensor interfacing
+        And, co-worked with Korean cellular network provider (KT), ETRI, KETI, and lots of solution partners.
+        I have learned mobile communication protocols especially LTE, LPWA(LoRa, LTE Cat.NB, M1, ...), WPAN(WiFi, Bluetooth LE, Zigbee, ...), and various sensor interfacing
 
     - role: Sergeant
       time: 2007 - 2009
@@ -79,7 +79,7 @@ projects:
     title: Projects
     intro: >
       I have developed various IoT services from terminal device to server application.
-      Most of devices developed using C/C++, RTOS on microprocessor or Linux on Appliation processor, communicating with LTE/LPWA/WPAN modules.
+      Most of devices developed using C/C++, RTOS on microprocessor or Linux on Application processor, communicating with LTE/LPWA/WPAN modules.
       Most of servers and windows application developed under Node.js framework.
 
     assignments:
@@ -103,9 +103,9 @@ projects:
       - title: LTE Router
         link: "http://www.teleworks.co.kr/product/list.asp?gb_div=2"
         tagline: |
-          General perpose LTE router supporting LTE cat.4 based on MDM9625 (Qualcomm LTE Chipset)
+          General purpose LTE router supporting LTE cat.4 based on MDM9625 (Qualcomm LTE Chipset)
           - Taking part in hardware design based on RT5330 (Ralink WiFi chip)
-          - Porting Embedded linux
+          - Porting Embedded Linux
           - Porting Linux RIL (Qualcomm QMI Interface)
           - Porting KT DMS protocol (Quality reporting, FOTA)
           - Customizing management web UI
@@ -122,8 +122,8 @@ projects:
 
       - title: NB-IoT External Modem
         tagline: |
-          An external modem for solar pannel monitoring system using NB-IoT (Sercomm TPB23)
-          - Interface with solar pannel monitor (RTU)
+          An external modem for solar panel monitoring system using NB-IoT (Sercomm TPB23)
+          - Interface with solar panel monitor (RTU)
           - Connect to KT IoT Makers platform using LWM2M/CoAP
           - Certification of network operator (KT)
 
@@ -142,7 +142,7 @@ projects:
           - KT Pre-QAT, QAT for Quectel EC-20 LTE Module (LTE Cat.4)
           - KT Pre-QAT for Harman vehicle emergency communication system (LTE Cat.16, Thales module)
           - Analyzing defects, failures and suggesting solution
-          - Making a connection manager tool for test sceanario (Win32 Application)
+          - Making a connection manager tool for test scenario (Win32 Application)
 
       - title: Supporting tools
         tagline: |
@@ -159,7 +159,7 @@ projects:
           - Full stack development with Node.js + MongoDB + Express + Bootstrap
           - Communicate with door closing detect sensor every toilet
           - Provide general user interface and admin management UI
-          - Deply web-based application to Google play store
+          - Deploy web-based application to Google play store
   
       - title: Others
         tagline: |
